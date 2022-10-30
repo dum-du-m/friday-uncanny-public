@@ -565,9 +565,6 @@ class PlayState extends MusicBeatState
 					dialogueBox.updateDialog();
 			}
 		}
-			if(FlxG.keys.justPressed.TWO) { //Go 10 seconds into the future :O
-				Conductor.songPosition += 10000;
-			}
 		if (!inCutscene)
 		{
 			// pause the game if the game is allowed to pause and enter is pressed
